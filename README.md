@@ -72,12 +72,22 @@
     </header>
 
     <main>
-        <section id="intro" class="h-[60vh] md:h-[80vh] flex items-center justify-center text-center bg-gradient-to-b from-[#FDFBF8] to-[#FFF5F1]">
-            <div class="container mx-auto px-6">
-                <h2 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight mb-4 fade-in">
-                    모든 발걸음이<br>존중받는 세상
-                </h2>
-                <p class="text-lg md:text-xl text-gray-600 fade-in" style="transition-delay: 200ms;">Where Every Paw Belongs</p>
+  <section id="intro" 
+    class="h-[80vh] flex items-center justify-center bg-gradient-to-b from-[#FDFBF8] to-[#FFF5F1]">
+    
+    <div class="container mx-auto px-6 text-center">
+      <!-- 메인 타이틀 -->
+      <h2 class="text-5xl md:text-7xl lg:text-8xl font-extrabold text-gray-800 leading-tight mb-6 fade-in">
+        모든 발걸음이<br>존중받는 세상
+      </h2>
+      
+      <!-- 서브 텍스트 -->
+      <p class="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-600 fade-in" style="transition-delay: 200ms;">
+        Where Every Paw Belongs
+      </p>
+    </div>
+  </section>
+</main>Belongs</p>
                 <div class="mt-8 fade-in" style="transition-delay: 400ms;">
                     <a href="#why" class="bg-[#FD7E53] text-white py-3 px-8 rounded-full font-semibold hover:bg-[#F2643A] transition-colors inline-block">스토리 시작하기 👇</a>
                 </div>
